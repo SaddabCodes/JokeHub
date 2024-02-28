@@ -1,0 +1,11 @@
+{
+  "name": "Jokes",
+  "description": "Get a new Joke on every click",
+  "version": "0.0.1",
+  "manifest_version": 3,
+
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": "icon.png"
+  }
+}
