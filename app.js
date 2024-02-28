@@ -1,8 +1,6 @@
 const getJokes = async () => {
   try {
-    const res = await fetch(
-      "https://official-joke-api.appspot.com/jokes/random"
-    );
+    const res = await fetch("https://official-joke-api.appspot.com/random_joke");
     const data = await res.json();
     const myjokes = document.querySelector("#myjoke");
     // Construct the joke text using the setup and punchline
