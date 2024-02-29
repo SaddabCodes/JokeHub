@@ -1,5 +1,6 @@
 body {
-  background-color: cadetblue;
+  color: #ffbe0b;
+  background-color: #386641;
   transition: background-color 2s; /* Adding transition to the default state */
 }
 
@@ -9,6 +10,7 @@ body:hover {
 }
 
 p {
+  font-weight: bold;
   padding: 10px;
   font-size: 16px;
   min-width: 100px;
